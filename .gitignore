@@ -1,0 +1,22 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment credentials (CRITICAL: Do not commit keys to GitHub)
+.env
+
+# Logs and scratch
+*.log
+scratch/
+
+# OS specific
+.DS_Store
+Thumbs.db
